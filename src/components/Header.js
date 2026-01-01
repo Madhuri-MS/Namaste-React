@@ -14,7 +14,7 @@ const Header = () =>{
         <img className="logo"  src={ICON_URL} alt="logo" /></div>
       <div className="nav-items">
         <ul>
-          <li><h4>Online Status: {onlineStatus ? "✅" : "❌"}</h4></li>
+          <li><h4>Online Status: {onlineStatus ? "🟢" : "🔴"}</h4></li>
           <li><Link to="/"><h4>Home</h4></Link></li>
           <li><Link to ="/about"><h4>About</h4></Link></li>
           <li><Link to="/contact"><h4>Contact</h4></Link></li>
